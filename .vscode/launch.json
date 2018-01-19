@@ -15,7 +15,8 @@
             "environment": [],
             "externalConsole": true,
             "linux": {
-                "MIMode": "lldb"
+                "MIMode": "gdb",
+                "MIDebuggerPath":"/usr/bin/gdb"
             },
             "osx": {
                 "MIMode": "lldb"
@@ -47,6 +48,8 @@
             "MIMode": "gdb"
         },
     }
+    ]
+}
 
 
   
